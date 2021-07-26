@@ -5,49 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studies Plans</title>
-    <link rel="stylesheet" href="4cssstyle.css">
-    <link rel="icon" href="file:///C:/Users/felip/Downloads/image-removebg-preview%20(14).png">
-    <script src="1java.js"></script>
+    <link rel="stylesheet" href="./css/2cssstyle.css">
+    <link rel="icon" href="./css/imagens/icon.png">
+    <script src="./javascript/1java.js"></script>
 </head>
 <body onload="criarSelectsNiveisDificuldade()">
     <div id="conteudo">
         <p><ul style="list-style-position: inside; font-size: 30px;font-family: Arial, Helvetica, sans-serif;text-align: center;color: white;"><li>Selecione o grau de dificuldade para cada matéria:</li></ul></p><br>
         <br>
         <br>
-        <!-- acrescentei id nesse primeiro <p> -->
         <p id="1">1º Matéria</p>
         <select id="1º">
             <option value="Baixa" id="baixa">Baixa</option>
             <option value="Média" id="media">Média</option>
             <option value="Alta" id="alta">Alta</option>
         </select>
-        <!-- <p>2º Matéria</p>
-        <select id="2º">
-            <option value="Baixa">Baixa</option>
-            <option value="Média">Média</option>
-            <option value="Alta">Alta</option>
-        </select>
-        <p>3º Matéria</p>
-        <select id="3º">
-            <option value="Baixa">Baixa</option>
-            <option value="Média">Média</option>
-            <option value="Alta">Alta</option>
-        </select>
-        <p>4º Matéria</p>
-        <select id="4º">
-            <option value="Baixa">Baixa</option>
-            <option value="Média">Média</option>
-            <option value="Alta">Alta</option>
-        </select>
-        <p>5º Matéria</p>
-        <select id="5º">
-            <option value="Baixa">Baixa</option>
-            <option value="Média">Média</option>
-            <option value="Alta">Alta</option>
-        </select> -->
     </div> 
     <br>
     <br>   
-    <div><button type="button" onclick="guardarniveis()">Próximo</button></div>
+    <div><button class="next" type="button" onclick="guardarniveis()">Próximo</button></div>
 </body>
 </html>

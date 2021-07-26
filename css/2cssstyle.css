@@ -1,0 +1,60 @@
+body    { 
+    background-image: url("./imagens/livrito.jpg");
+    background-attachment: fixed; 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position:0.1vmax;
+}
+/* USEI BUTTON AO INVES DE LINK NO INDEX2 ENTÃO COLOQUEI O BUTTON COM O MESMO ESTILO DO INPUT*/
+input, button {
+    border-radius: 20px;
+    background-color: white;
+    border-width: 0px;
+    font-family: sans-serif;
+    outline: 0px;
+}
+::placeholder {
+    text-align: center;
+     font-size: 13px;
+}
+div {
+    text-align: center;
+}
+ul {
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    list-style-position: inside;
+}
+select {
+    text-align: center;
+    line-height: 200px;
+    background-color:rgba(245, 245, 245, 0.762);
+    background-position: center;
+    border: 10px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    border-width: 50px;
+    width: 250px;
+    text-align: center;
+}
+#quantidadedematerias > input {
+    font-size: 25px;
+    width: 100px;
+    padding: 4px;
+}
+.next {
+    padding: 5px;
+    width: 90px;
+}
+.tempo {
+    width: 65px;
+    height: 30px;
+}
+.divdotempo > p {
+    color: white;
+    font-size: 18px;
+    padding: 3px;
+}

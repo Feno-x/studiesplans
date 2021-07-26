@@ -5,16 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studies Plans</title>
-    <link rel="stylesheet" href="2cssstyle.css">
-    <link rel="icon" href="file:///C:/Users/felip/Downloads/image-removebg-preview%20(14).png">
-    <script src="1java.js"></script>
+    <link rel="stylesheet" href="./css/2cssstyle.css">
+    <link rel="icon" href="./css/imagens/icon.png">
+    <script src="./javascript/1java.js"></script>
 </head>
 <body>
     <div><p><ul><li>Informe a quantidade de matérias:</li></ul></p></div>
-<div><input type="number" min="1" max="10" onKeyDown="return false" placeholder="Informe aqui" id="quantidade"; autofocus="on";></div><br>
-<!-- <div><a href="index3.html"><input type="submit" value="Próximo" id="numeromaterias"></a></div> -->
-<!-- USEI BUTTON AO INVES DE LINK, PARA FICAR IGUAL ACRESCENTEI O BUTTON COM MESMO ESTILO DO INPUT -->
-<div><button type="button" onclick="guardarQuantidadeNavegarParaNomeDasMaterias()">Próximo</button></div>
-    
+<div id="quantidadedematerias"><input type="number" min="1" max="10" onKeyDown="return false" placeholder="Informe aqui" id="quantidade"; autofocus="on";></div><br>
+<div><button class="next" type="button" onclick="guardarQuantidadeNavegarParaNomeDasMaterias()">Próximo</button></div>
 </body>
 </html>

@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studies Plans</title>
-    <link rel="icon" href="file:///C:/Users/felip/Downloads/image-removebg-preview%20(14).png">
-    <link rel="stylesheet" href="5cssstyle.css">
-    <script src="1java.js"></script>
+    <link rel="icon" href="./css/imagens/icon.png">
+    <link rel="stylesheet" href="./css/2cssstyle.css">
+    <script src="./javascript/1java.js"></script>
 </head>
 <body>
     <div>
@@ -15,18 +15,12 @@
         <li>Informe seu horário disponível:</li></ul></p></div>
         <br>
         <br>
+        <div class="divdotempo"><p>Insira o horário de início:<br><br><input class="tempo" type="time" id="horarioinicio"></p></div>
         <br>
-
-        <div><p>Insira o horário de início:<input type="time" id="horarioinicio"></p></div>
-        <br>
-        <br>
-        <br>
-        <div><p>Insira o horário de finalização:<input type="time" id="horariofinal"></p></div>
+        <div class="divdotempo"><p>Insira o horário de finalização:<br><br><input class="tempo" type="time" id="horariofinal"></p></div>
         <br>
         <br>
-        <br>
-        <div><button type="button" onclick="guardarHorarios()">Criar plano</button>
+        <div><button class="next" type="button" onclick="guardarHorarios()">Criar plano</button>
         </div>
-    
 </body>
 </html>
