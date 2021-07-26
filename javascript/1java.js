@@ -103,6 +103,7 @@ function criarSelectsNiveisDificuldade() {
     select.style.backgroundColor = "white";
     select.style.outline = "0px";
     novoSelect.style.backgroundColor = "white";
+    novoSelect.style.outline = "0px";
   }  
   
   // Aqui acrescentei essa parte para colocar os nomes das materias, 
