@@ -49,3 +49,12 @@ select {
     padding: 5px;
     width: 90px;
 }
+.tempo {
+    width: 65px;
+    height: 30px;
+}
+.divdotempo > p {
+    color: white;
+    font-size: 18px;
+    padding: 3px;
+}

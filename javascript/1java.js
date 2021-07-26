@@ -100,7 +100,11 @@ function criarSelectsNiveisDificuldade() {
     novoSelect.setAttribute("id", `${i+2}º`)
     divConteudo.append(p)
     divConteudo.append(novoSelect)   
+    select.style.backgroundColor = "white";
+    select.style.outline = "0px";
+    novoSelect.style.backgroundColor = "white";
   }  
+  
   // Aqui acrescentei essa parte para colocar os nomes das materias, 
   //como nesse momento os ids estão na sequencia 1º, 2º, 3º... 
   //fica mais facil usar um laço for e ir substituindo pelos nomes que foram 
