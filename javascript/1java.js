@@ -34,6 +34,9 @@ function criarInputsNomeDasMaterias() {
     input.setAttribute("placeholder", `Insira a ${i+1}ª aqui`)
     input.setAttribute("maxlength", "30")
     input.setAttribute("id", `nome${i+1}`)
+    input.style.fontSize = "23px";
+    input.style.textAlign = "center";
+    input.style.padding = "0.5px";
     //CRIA UM BREAK
     const br = document.createElement("BR")
     // ADICIONA O BR NA DIV nomeMaterias
@@ -96,7 +99,7 @@ function criarSelectsNiveisDificuldade() {
     const novoSelect = select.cloneNode(true)
     novoSelect.setAttribute("id", `${i+2}º`)
     divConteudo.append(p)
-    divConteudo.append(novoSelect)    
+    divConteudo.append(novoSelect)   
   }  
   // Aqui acrescentei essa parte para colocar os nomes das materias, 
   //como nesse momento os ids estão na sequencia 1º, 2º, 3º... 
@@ -107,7 +110,8 @@ function criarSelectsNiveisDificuldade() {
   //Este for vai renomeando os <p> para os nomes do array nomeDasMaterias
   for(let i = 0; i < quantidadeMaterias; i++){
     const p = document.getElementById(i+1)
-    p.innerHTML = nomeDasMaterias[i]    
+    p.innerHTML = nomeDasMaterias[i] 
+    p.style.color = "white";   
   }
 }
 function planodeestudos() {
