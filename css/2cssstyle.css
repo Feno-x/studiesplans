@@ -1,7 +1,7 @@
-body {
-    /* background-image: url(file:///C:/Users/felip/Downloads/livrito.jpg); */
-    background-image: url("./imagens/image.jpeg");
-    background-attachment: fixed; background-size: 100%;
+body    { 
+    background-image: url("./imagens/livrito.jpg");
+    background-attachment: fixed; 
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
     background-position:0.1vmax;
@@ -13,6 +13,7 @@ input, button {
     border-width: 0px;
     font-size: x-large;
     font-family: sans-serif;
+    outline: 0px;
 }
 ::placeholder {
     text-align: center;
@@ -26,4 +27,17 @@ ul {
     font-size: 30px;
     color:white;
     list-style-position: inside;
+}
+select {
+    text-align: center;
+    line-height: 200px;
+    background-color:rgba(245, 245, 245, 0.762);
+    background-position: center;
+    border: 10px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    border-width: 50px;
+    width: 250px;
+    text-align: center;
 }
