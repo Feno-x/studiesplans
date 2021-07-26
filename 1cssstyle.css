@@ -1,0 +1,46 @@
+/* Abaixo code para body */
+body {
+    background-color:rgb(0, 32, 96);
+}
+/* Abaixo code para h1 */
+h1{
+    font-size: 70px;
+     color:white;
+    background-color:rgb(0, 32, 96);
+    border-color:rgb(0, 32, 96);
+    position:absolute;
+     left:10%;
+     bottom:25%
+    }
+
+/*Abaixo code para H2*/
+h2{
+    text-align: right;
+    font-size: 21px;
+    color:black;
+    font-family:sans-serif;
+    background-color: white;
+    border: 10px solid white;
+    padding: 0px;
+     margin: 10px;
+     border-radius: 20px;
+     border-width: 50px;
+     width: 250px;
+     position:absolute;
+      right:5%;
+      top:2%;
+    width: max-content;
+}
+     button {
+         border-radius: 20px;
+         background-color:rgb(112, 48, 160);
+         color:white;
+        font-family: sans-serif;
+        border-color: rgb(112, 48, 160);
+         cursor: pointer;
+         font-size:x-large;
+        }
+        div {
+            background-color: rgb(1, 32, 96);
+             text-align: center;
+            }
