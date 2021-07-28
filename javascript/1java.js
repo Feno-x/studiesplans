@@ -81,9 +81,6 @@ function guardarHorarios(){
   console.log(secondsinicio);
   localStorage.setItem('secondsinicio', secondsinicio)
   localStorage.setItem('secondsfinal', secondsfinal)
-  var x = 3
-  var y = 2
-  var z = 1
   window.location.href = "index6.html"
 }
 
