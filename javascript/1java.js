@@ -121,12 +121,12 @@ function criarSelectsNiveisDificuldade() {
 }
 function planodeestudos() {
   const nomeDasMaterias = +localStorage.getItem('nomeDasMaterias')
-  const tableconteudo = document.getElementById('conteudotable')
-  const tr = document.getElementById('trbasico')
+  const quantidadedasmaterias = +localStorage.getItem('quantidadeMaterias')
+  const dificuldades = +localStorage.getItem('niveisDeDificuldade')
+  const começo = +localStorage.getItem('secondsinicio')
+  const fim = +localStorage.getItem('secondsfinal')
+  const range = fim - começo 
+  localStorage.setItem('tempototal', range)
   for(let i = 0; i < quantidadeMaterias -1; i++) {
-    const table = document.createElement("table")
-    table.setAttribute("id", `tabela ${i+2}º`)
-    const novoTable = table.cloneNode(true)
-    novoTable.setAttribute("id", `atributo ${i+1}`)
-     }
+ }
 }
