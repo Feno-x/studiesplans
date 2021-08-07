@@ -124,6 +124,8 @@ function planodeestudos() {
   const fim = +localStorage.getItem('secondsfinal')
   const range = fim - começo 
   localStorage.setItem('tempototal', range)
-  for(let i = 0; i < quantidadeMaterias -1; i++) {
+  for(let i = 0; i < quantidadedasmaterias; i++) {
+    const divplano = document.createElement("div");
+    divplano.setAttribute("id", `planocontainer${i+1}`);
  }
 }
